@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>FOODIES CORNER</title>
+<style type="text/css">	
+ *{padding: 0%;margin: 0%;box-sizing: border-box;}
+ header{
+	width: 100%;
+	height: 100vh;
+    background-color:black;
+    background-image:url('bg3.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+ }
+
+ nav{
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+ .logo{
+
+    font-size: 50px;
+    letter-spacing: 2px;
+ }
+
+ .menu a{
+ text-decoration: none;
+ color: white;
+ padding: 10px 30px;
+ font-size: 20px;
+ position: relative;
+ }
+
+ .menu a:before{
+   
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-bottom: 2px solid yellow;
+    transition: 0.2s linear;
+                   }
+
+  .menu a:hover:before {
+   width:90%;
+  }           
+
+ .register a{
+    text-decoration: none;
+    background-color: indianred;
+ color: white;
+ padding: 10px 20px;
+ font-size: 20px;
+ position: relative;
+    
+           }
+
+    .register a:hover{
+        background: transparent;
+        border: 1px solid indianred;
+    }
+           
+
+ .h-txt{
+    max-width: 650px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:white;
+    text-align: center;
+ }
+
+ .h-txt span{
+    letter-spacing: 5PX;
+ }
+
+  .h-txt h1{
+font-size: 3.5em;
+
+ }
+
+ .h-txt a{
+    text-decoration: none;
+    background: indianred;
+    color: white;
+    padding: 10px 20px;
+    letter-spacing: 5px;
+    transition: 0.4s;
+         }
+
+         .h-txt a:hover{
+        background: transparent;
+        border: 1px solid indianred;
+    }
+    
+   
+ </style>
+
+    </head>
+<body>
+
+<header>
+    <nav>
+        <div class="logo">
+          &#127860;FOO:)IES
+        </div>
+        <div class="menu">
+            <a href="webpage.html">HOME</a>
+            <a href="Menu.html">MENU</a>
+            <a href="chefs.html">CHEFS</a>
+            <a href="offers.html">REVIEWS</a>
+            <a href="aboutus.html">ABOUT US</a>
+            <a href="PORTFOLIO.html">PORTFOLIO</a>
+        </div>
+        <div class="register">
+           <a href="vooking.html">Book</a>
+           </div>
+
+    </nav>
+    <section class="h-txt">
+        <span>ENJOY</span>
+        <h1>BEST FOOD WITH US</h1>
+
+        <br>
+            <a href="vooking.html">Book Your Table</a>
+    </section>
+    
+    
+		
+		
+		
+		
+		
+</header>
+
+</body>
+</html>
+
+

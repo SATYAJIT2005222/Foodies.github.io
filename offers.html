@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Reviews</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color:black; /* Dark background */
+            color: #f4f4f4; /* Light text */
+            margin: 0;
+            padding: 0;
+            background-image:url('bg3.jpg');
+            background-size: cover;
+        }
+
+        .reviews-section {
+            background-color: black; /* Darker background for the review section */
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        .reviews-section h2 {
+            text-align: center;
+            color: #f4f4f4; /* Light color for heading */
+            margin-bottom: 20px;
+        }
+
+        .review {
+            border-bottom: 1px solid #333; /* Lighter border color */
+            padding: 15px 0;
+        }
+
+        .review:last-child {
+            border-bottom: none;
+        }
+
+        .review .user-name {
+            font-weight: bold;
+            font-size: 1.2em;
+            color: #e0e0e0; /* Light user name color */
+        }
+
+        .review .rating {
+            color: #f39c12; /* Gold color for stars */
+            font-size: 1.2em;
+        }
+
+        .review .comment {
+            margin-top: 10px;
+            color: #dcdcdc; /* Lighter comment color */
+        }
+
+        .review .date {
+            font-size: 0.9em;
+            color: #888; /* Slightly lighter date color */
+        }
+
+        .add-review {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .add-review textarea {
+            width: 80%;
+            height: 100px;
+            padding: 10px;
+            border: 1px solid #555; /* Border color for dark theme */
+            border-radius: 5px;
+            background-color: #333; /* Dark background for textarea */
+            color: #f4f4f4; /* Light text */
+            font-size: 1em;
+        }
+
+        .add-review button {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .add-review button:hover {
+            background-color: #2980b9;
+        }
+        footer {
+            text-align: center;
+            background: #d35400;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="reviews-section">
+        <h2>Customer Reviews</h2>
+
+        <div class="review">
+            <div class="user-name">PRATHMESH VARDEKAR</div>
+            <div class="rating">⭐⭐⭐⭐⭐</div>
+            <div class="comment">The food was absolutely amazing, and the service was outstanding! Will definitely come back.</div>
+            <div class="date">March 28, 2025</div>
+        </div>
+
+        <div class="review">
+            <div class="user-name">BHARGAVI SAGBHOR</div>
+            <div class="rating">⭐⭐⭐⭐</div>
+            <div class="comment">A great experience, although I wish there were more vegetarian options. Still, highly recommend!</div>
+            <div class="date">March 25, 2025</div>
+        </div>
+
+        <div class="review">
+            <div class="user-name">SUMEDH SONAWANE</div>
+            <div class="rating">⭐⭐⭐⭐⭐</div>
+            <div class="comment">Perfect! The ambiance, the food, and the drinks were all top notch. Highly recommend this place!</div>
+            <div class="date">March 22, 2025</div>
+        </div>
+
+        <!-- Add new review section -->
+        <div class="add-review">
+            <h3>Leave a Review</h3>
+            <textarea placeholder="Write your review here..."></textarea><br>
+            <button type="button">Submit Review</button>
+        </div>
+    </div>
+    <footer>
+        <p>© 2025 FOODIES. All rights reserved.</p>
+    </footer>
+</body>
+</html>
